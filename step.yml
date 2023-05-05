@@ -8,14 +8,14 @@
 # - Bitrise CLI guides: http://devcenter.bitrise.io/bitrise-cli/
 
 title: |-
-  Create a new release in JIRA
+  Create a JIRA ticket
 summary: |
-  Create a new release in JIRA.
+  Create a JIRA ticket
 description: |
-  This Step creates a Release in your JIRA project, with the start date, publication and description you need.
-website: https://github.com/Emalober/bitrise-step-create-a-new-release-in-jira
-source_code_url: https://github.com/Emalober/bitrise-step-create-a-new-release-in-jira
-support_url: https://github.com/Emalober/bitrise-step-create-a-new-release-in-jira/issues
+  This Step creates a ticket in JIRA, under a configurable project with other fields
+website: https://github.com/SurveyMonkey-Mobile/bitrise-step-create-jira-ticket
+source_code_url: https://github.com/SurveyMonkey-Mobile/bitrise-step-create-jira-ticket
+support_url: https://github.com/SurveyMonkey-Mobile/bitrise-step-create-jira-ticket/issues
 host_os_tags:
   - osx-10.10
   - ubuntu-16.04
@@ -67,7 +67,7 @@ inputs:
   - project_prefix:
     opts:
       title: "Jira project prefix"
-      summary: "Jira project prefix to search for tasks."
+      summary: "Jira project prefix to create new ticket in"
       description: |
         Jira project prefix to search for tasks.
         
@@ -104,33 +104,3 @@ inputs:
         24 character string
       is_sensitive: true
       is_required: true
-  - version_description:
-    opts:
-      title: "Version  description"
-      summary: "Version description"
-      description: |
-        Version description.
-      
-        e.g. "An excellent version"
-      is_required: true
-  - version_name:
-    opts:
-      title: "Version  name"
-      summary: "Version name"
-      description: |
-        Version name.
-      
-        e.g. "v1.0.0"
-      is_expand: true
-      is_required: true
-  - version_released: "no"
-    opts:
-      title: "If the version is Released?"
-      summary: "If the version is Released"
-      description: |
-        If the version is Released.
-      is_required: true
-      value_options:
-      - "yes"
-      - "no"
-
