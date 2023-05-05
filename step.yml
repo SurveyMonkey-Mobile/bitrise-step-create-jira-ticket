@@ -17,7 +17,7 @@ website: https://github.com/SurveyMonkey-Mobile/bitrise-step-create-jira-ticket
 source_code_url: https://github.com/SurveyMonkey-Mobile/bitrise-step-create-jira-ticket
 support_url: https://github.com/SurveyMonkey-Mobile/bitrise-step-create-jira-ticket/issues
 host_os_tags:
-  - osx-10.10
+  - osx-13.2
   - ubuntu-16.04
 
 # If this step should be available only for certain project types
