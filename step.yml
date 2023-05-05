@@ -104,3 +104,33 @@ inputs:
         24 character string
       is_sensitive: true
       is_required: true
+  - ticket_name:
+    opts:
+      title: "Ticket name"
+      summary: "What to name the ticket"
+      description: |
+        What to name the ticket
+        
+        e.g. "Release Version XYZ"
+      is_sensitive: false
+      is_required: true
+  - ticket_description:
+    opts:
+      title: "Ticket description"
+      summary: "What will end up in the ticket description field"
+      description: |
+        Description for the ticket
+        
+        e.g. "Bitrise created a new build, track it's release with this ticket."
+      is_sensitive: false
+      is_required: true
+  - ticket_project:
+    opts:
+      title: "Ticket Project"
+      summary: "Project in JIRA to create the ticket under"
+      description: |
+        Project in JIRA to create the ticket under
+        
+        e.g. "MYPROJ"
+      is_sensitive: false
+      is_required: true
