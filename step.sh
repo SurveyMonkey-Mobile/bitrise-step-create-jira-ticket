@@ -11,7 +11,7 @@ body='{
     "project": "'${project_prefix}'"
   },
   "update": {}
-'
+}'
 
 today=$(date +'%Y-%m-%d')
 
