@@ -9,7 +9,8 @@ body='{
     "description": "'${ticket_description}'",
     "name": "'${ticket_name}'",
     "project": "'${project_prefix}'"
-  }
+  },
+  "update": {}
 '
 
 today=$(date +'%Y-%m-%d')
