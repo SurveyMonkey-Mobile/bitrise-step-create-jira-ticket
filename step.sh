@@ -6,7 +6,21 @@ reset=$'\e[0m'
 
 body='{
   "fields": {
-    "description": "'${ticket_description}'",
+    "description": { 
+      "content": [
+        {
+          "content": [
+            {
+              "text": "'${ticket_description}'",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc",
+      "version": 1
+    },
     "summary": "'${ticket_name}'",
     "project": {
       "key": "'${project_prefix}'"
