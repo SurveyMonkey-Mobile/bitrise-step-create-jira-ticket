@@ -7,7 +7,7 @@ reset=$'\e[0m'
 body='{
   "fields": {
     "description": "'${ticket_description}'",
-    "name": "'${ticket_name}'",
+    "summary": "'${ticket_name}'",
     "project": {
       "key": "'${project_prefix}'"
     },
