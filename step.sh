@@ -10,6 +10,9 @@ body='{
     "name": "'${ticket_name}'",
     "project": {
       "key": "'${project_prefix}'"
+    },
+    "issueType": {
+      "key": "Task"
     }
   },
   "update": {}
