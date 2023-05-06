@@ -14,6 +14,10 @@ body='{
 
 today=$(date +'%Y-%m-%d')
 
+echo curl -u $jira_user:$jira_token -X POST -H 'Content-Type: application/json' --data-raw "${body}" https://${jira_domain}/rest/api/3/issue
+
+echo $body
+
 res="$(curl -u $jira_user:$jira_token -X POST -H 'Content-Type: application/json' --data-raw "${body}" https://${jira_domain}/rest/api/3/issue)"
 
 echo $res
