@@ -8,7 +8,9 @@ body='{
   "fields": {
     "description": "'${ticket_description}'",
     "name": "'${ticket_name}'",
-    "project": "'${project_prefix}'"
+    "project": {
+      "key": "'${project_prefix}'"
+    }
   },
   "update": {}
 }'
