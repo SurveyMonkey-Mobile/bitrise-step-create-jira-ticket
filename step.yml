@@ -124,3 +124,13 @@ inputs:
         e.g. "Bitrise created a new build, track it's release with this ticket."
       is_sensitive: false
       is_required: true
+  - ticket_issue_type:
+    opts:
+      title: "Issue type id"
+      summary: "Jira issue type id number"
+      description: |
+        You can find the possible issue type ids via:
+        https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issues/#api-rest-api-3-issue-createmeta-get
+      is_sensitive: false
+      is_required: true
+    
