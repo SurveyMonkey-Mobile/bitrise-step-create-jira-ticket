@@ -12,7 +12,7 @@ body='{
       "key": "'${project_prefix}'"
     },
     "issuetype": {
-      "id": "'${ticket_issue_type'"
+      "id": "'${ticket_issue_type}'"
     }
   },
   "update": {}
