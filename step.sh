@@ -35,10 +35,18 @@ body='{
     "customfield_12240": {
       "id": "'${ticket_field_12240}'"
     },
-    "customfield_11141": "'${ticket_field_11141}'",
-    "customfield_10140": "'${ticket_field_10140}'",
-    "customfield_11143": "'${ticket_field_11143}'",
-    "customfield_12045": "'${ticket_field_12045}'"
+    "customfield_11141": {
+      "emailAddress": "'${ticket_field_11141}'"
+    },
+    "customfield_10140": {
+      "emailAddress": "'${ticket_field_10140}'"
+    },
+    "customfield_11143": {
+      "emailAddress": "'${ticket_field_11143}'"
+    },
+    "customfield_12045": {
+      "emailAddress": "'${ticket_field_12045}'"
+    }
   },
   "update": {}
 }'
