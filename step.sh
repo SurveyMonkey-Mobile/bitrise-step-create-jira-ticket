@@ -29,11 +29,11 @@ body='{
       "id": "'${ticket_issue_type}'"
     },
     "customfield_14945": {
-      "name": "'${ticket_field_14945}'"
+      "id": "'${ticket_field_14945}'"
     },
     "customfield_12042": "'${ticket_field_12042}'",
     "customfield_12240": {
-      "name": "'${ticket_field_12240}'"
+      "id": "'${ticket_field_12240}'"
     },
     "customfield_11141": "'${ticket_field_11141}'",
     "customfield_10140": "'${ticket_field_10140}'",
