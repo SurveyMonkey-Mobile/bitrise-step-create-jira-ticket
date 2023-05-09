@@ -132,5 +132,53 @@ inputs:
         You can find the possible issue type ids via:
         https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issues/#api-rest-api-3-issue-createmeta-get
       is_sensitive: false
+      is_required: true  
+  - ticket_field_14945:
+    opts:
+      title: "Deployment System"
+      summary: "Deployment System"
+      description: "Deployment System"
+      is_sensitive: false
       is_required: true
-    
+  - ticket_field_12042:
+    opts:
+      title: "Release Version"
+      summary: "Release Version"
+      description: "Release Version"
+      is_sensitive: false
+      is_required: true
+  - ticket_field_12240:
+    opts:
+      title: "Product / Property"
+      summary: "Product / Property"
+      description: "Product / Property"
+      is_sensitive: false
+      is_required: true
+  - ticket_field_11141:
+    opts:
+      title: "Product Owner"
+      summary: "Product Owner"
+      description: "Product Owner"
+      is_sensitive: false
+      is_required: true
+  - ticket_field_10140:
+    opts:
+      title: "QA Owner"
+      summary: "QA Owner"
+      description: "QA Owner"
+      is_sensitive: false
+      is_required: true
+  - ticket_field_11143:
+    opts:
+      title: "Service Owner"
+      summary: "Service Owner"
+      description: "Service Owner"
+      is_sensitive: false
+      is_required: true
+  - ticket_field_12045:
+    opts:
+      title: "DB Owner"
+      summary: "DB Owner"
+      description: "DB Owner"
+      is_sensitive: false
+      is_required: true
